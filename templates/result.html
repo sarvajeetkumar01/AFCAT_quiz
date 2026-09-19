@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AFCAT Quiz - Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header class="result-header">
+
+        <h1>AFCAT QUIZ</h1>
+
+        <p>Test Completed</p>
+
+    </header>
+
+
+    <main>
+
+        <h2>Test Result</h2>
+
+        <p>Here is your performance summary</p>
+
+
+        <div class="result-container">
+
+            <div class="result-card">
+
+                <h3>Test Details</h3>
+
+                <p>
+                    <strong>Test Type:</strong>
+                    <span id="test-type">---</span>
+                </p>
+
+                <p>
+                    <strong>Total Questions:</strong>
+                    <span id="total-questions">---</span>
+                </p>
+
+                <p>
+                    <strong>Correct Answers:</strong>
+                    <span id="correct-answers">---</span>
+                </p>
+
+                <p>
+                    <strong>Wrong Answers:</strong>
+                    <span id="wrong-answers">---</span>
+                </p>
+
+                <p>
+                    <strong>Unattempted:</strong>
+                    <span id="unattempted">---</span>
+                </p>
+
+                <p>
+                    <strong>Score:</strong>
+                    <span id="score">---</span>
+                </p>
+
+                <p>
+                    <strong>Accuracy:</strong>
+                    <span id="accuracy">---</span>
+                </p>
+
+                <p>
+                    <strong>Time Taken:</strong>
+                    <span id="time-taken">---</span>
+                </p>
+
+            </div>
+
+
+            <div class="score-card">
+
+                <h3>Score</h3>
+
+                <h2 id="score-display">---</h2>
+
+                <p id="accuracy-display">--- Accuracy</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="result-buttons">
+
+            <button onclick="window.location.href='/'">
+                GO TO HOME
+            </button>
+
+            <button onclick="window.location.href='/test'">
+                TRY ANOTHER TEST
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>&copy; 2026 AFCAT QUIZ</p>
+
+    </footer>
+
+
+    <script src="{{ url_for('static', filename='result.js') }}"></script>
+
+</body>
+
+</html>

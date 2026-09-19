@@ -1,0 +1,908 @@
+[
+  {
+    "id": 1,
+    "subject": "English",
+    "question": "Fill in the blank with the most appropriate word from the given options. Despite the committee’s attempt to appear impartial, its recommendations were subtly ______, favoring corporate interests over public welfare.",
+    "options": {
+      "A": "equitable",
+      "B": "impartial",
+      "C": "disinterested",
+      "D": "partisan"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 2,
+    "subject": "English",
+    "question": "The following paragraph consists of a missing segment that is split into four parts. The parts are jumbled up and are named as P, Q, R and S. Arrange the jumbled parts and find out which of the four combinations from the given options will correctly complete the paragraph. (The first and last sentences are anchors.) The management theorist argued that effective leadership cannot be reduced to charismatic persuasion ______________________________ Hence, leadership must be understood as a systemic practice rather than as an individual trait. P: for sustainable influence arises from institutional design and participatory structures Q: which, when neglected, transform leadership into dependency rather than empowerment R: and only through distributed responsibility can organizations adapt to uncertainty S: thereby ensuring resilience in the face of volatile environments",
+    "options": {
+      "A": "SPQR",
+      "B": "PQRS",
+      "C": "PRSQ",
+      "D": "RPSQ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "subject": "English",
+    "question": "In the following question, a complex sentence is given. Choose the option that best transforms it into a simple sentence without altering its meaning, logical emphasis, or syntactic correctness. Although the committee acknowledged procedural lapses because oversight mechanisms failed intermittently, it maintained legitimacy since public confidence, though strained, had not entirely dissipated.",
+    "options": {
+      "A": "Despite procedural failures resulting from inconsistent oversight practices, the committee lost institutional legitimacy amid collapsing public confidence.",
+      "B": "Despite acknowledging intermittently failing oversight mechanisms responsible for procedural lapses, the committee maintained legitimacy owing to public confidence remaining completely diminished.",
+      "C": "Despite procedural lapses emerging from intermittently ineffective oversight mechanisms, the committee lost institutional legitimacy through entirely diminished public confidence.",
+      "D": "Despite acknowledging procedural lapses caused by intermittently failing oversight mechanisms, the committee maintained legitimacy amid partially diminished public confidence."
+    },
+    "answer": "D"
+  },
+  {
+    "id": 4,
+    "subject": "English",
+    "question": "Fill in the blank with the most appropriate word from the given options that best expresses the relationship similar to the original pair of words. Epistemology : Knowledge : : Ontology : ______",
+    "options": {
+      "A": "Perception",
+      "B": "Language",
+      "C": "Existence",
+      "D": "Logic"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "subject": "English",
+    "question": "Choose the best option which expresses the meaning of the given word. BOISTEROUS",
+    "options": {
+      "A": "Tranquil",
+      "B": "Clamourous",
+      "C": "Placid",
+      "D": "Docile"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 6,
+    "subject": "English",
+    "question": "Choose the option which best replaces the given group of words. A combination of sounds or musical notes that are not pleasant when heard together",
+    "options": {
+      "A": "resonance",
+      "B": "consonance",
+      "C": "dissonance",
+      "D": "euphony"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 7,
+    "subject": "English",
+    "question": "Select the appropriate option to complete the sentence. The expedition team meticulously monitored the unpredictable ______ conditions to determine ______ it was safe to proceed with the ascent.",
+    "options": {
+      "A": "whether, weather",
+      "B": "whether, whether",
+      "C": "weather, whether",
+      "D": "weather, weather"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "subject": "English",
+    "question": "Fill in the blank with the most appropriate word from the given options that best expresses the relationship similar to the original pair of words. RECALCITRANT : AUTHORITY :: HERETICAL : _______",
+    "options": {
+      "A": "TRADITION",
+      "B": "RITUAL",
+      "C": "ORTHODOXY",
+      "D": "DOCTRINE"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "subject": "English",
+    "question": "Fill in the blanks with the most appropriate option to complete the sentence. The aggregation of high-frequency financial datasets alongside predictive econometric modelling ______ critical insights and ______ strategic decision-making under volatile market conditions globally.",
+    "options": {
+      "A": "generate, enable",
+      "B": "generating, enabling",
+      "C": "has generated, enable",
+      "D": "generates, enables"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 10,
+    "subject": "English",
+    "question": "Choose the option which best expresses the meaning of the given idiom. The bee’s knees",
+    "options": {
+      "A": "something superficially impressive but ultimately ineffective",
+      "B": "something excellent, highly thought of, or desirable",
+      "C": "something rare but of questionable utility",
+      "D": "something excessively praised despite evident shortcomings"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "subject": "English",
+    "question": "Read the sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. Spot the error from the given options. Balancing personal ambition with ethical responsibility (A) is often challenging, as navigating between (B) individual aspirations and societal expectations demands consistent reflection and a willingness to accept difficult trade-offs. (C). No error (D)",
+    "options": {
+      "A": "(A)",
+      "B": "(C)",
+      "C": "(B)",
+      "D": "(D)"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 12,
+    "subject": "English",
+    "question": "The following incomplete sentence is split into parts. Four of the parts are jumbled up, known as PQRS. These four parts are not given in their proper order. Arrange the jumbled parts of the sentence and find out which of the four combinations from the given options will correctly complete the sentence. Sentence: New satellite data shows tropical rainforest loss ____________________________these vital ecosystems despite the recent improvement. P-yet nearly 43,000 sq km of old-growth forests were still lost globally Q-El Niño, and wildfire risks continue to threaten R-declined in 2025, largely due to reduced Amazon deforestation in Brazil S-far above decade-old levels, while scientists warn climate change,",
+    "options": {
+      "A": "SPRQ",
+      "B": "RPSQ",
+      "C": "PQRS",
+      "D": "QPSR"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "subject": "English",
+    "question": "A complex sentence is given is given below. Choose the option that best transforms it into a simple sentence without altering its meaning, logical emphasis, or syntactic correctness. While the model appeared robust because it integrated diverse datasets, it yielded inconsistent predictions since critical variables were excluded.",
+    "options": {
+      "A": "Though robust in integrating datasets, the model yielded inconsistent predictions as critical variables were excluded.",
+      "B": "Despite its apparent robustness in integrating diverse datasets, the model yielded inconsistent predictions due to excluded critical variables.",
+      "C": "In spite of integrating diverse datasets, the model yielded inconsistent predictions because variables were excluded.",
+      "D": "Despite appearing robust, the model yielded inconsistent predictions since critical variables were excluded."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "subject": "English",
+    "question": "Fill in the blank with the most appropriate words from the given options. The credibility of ethnographic research is strengthened ______________ community experiences systematically in field-based studies.",
+    "options": {
+      "A": "by documentation at",
+      "B": "by documented",
+      "C": "by to document",
+      "D": "by documenting"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 15,
+    "subject": "English",
+    "question": "Read the sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. Spot the error from the given options. The committee, after examining the financial and / (A) administrative implications, decided against / (B) approving the proposal because it was unlikely to yield / (C) any considerable benefits in the long run. / (D) No error",
+    "options": {
+      "A": "(D)",
+      "B": "(B)",
+      "C": "(C)",
+      "D": "(A)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "subject": "English",
+    "question": "Select the most appropriate idiom to substitute the underlined group of words in the given sentence. The constitutional bench remained in a state of prolonged and barely concealed nervous suspense as the Chief Justice began reading the judgment that could potentially overturn decades of judicial precedent.",
+    "options": {
+      "A": "in the doldrums",
+      "B": "on tenterhooks",
+      "C": "under the weather",
+      "D": "at cross purposes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "subject": "English",
+    "question": "Fill in the blanks with the most appropriate pair of words from the given options to complete the sentence. The research consortium intends to ______ emerging trends in data analytics and ______ collaborative networks across interdisciplinary domains to enhance knowledge dissemination effectively.",
+    "options": {
+      "A": "keep up with, build up",
+      "B": "give in to, break off",
+      "C": "put out, come down",
+      "D": "run over, take down"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 18,
+    "subject": "English",
+    "question": "Choose the option which best replaces the given group of words. To destroy or defeat somebody/something completely",
+    "options": {
+      "A": "agglomerate",
+      "B": "corroborate",
+      "C": "circumstantiate",
+      "D": "annihilate"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 19,
+    "subject": "English",
+    "question": "The following incomplete sentence is split into parts. Four of the parts are jumbled up, known as PQRS. These four parts are not given in their proper order. Arrange the jumbled parts of the sentence and find out which of the four combinations from the given options will correctly complete the sentence. Sentence: Cognitive theorists argue that decision-making is rarely purely rational, such that __________, judgments are shaped by layered heuristics rather than linear evaluation. P. biases interact dynamically rather than operating in isolation Q. especially when uncertainty amplifies reliance on intuitive processing R. experimental findings consistently demonstrate systematic deviations from normative models S. these deviations reveal underlying cognitive architectures governing perception and choice",
+    "options": {
+      "A": "PRSQ",
+      "B": "RSPQ",
+      "C": "SQPR",
+      "D": "QSRP"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "subject": "English",
+    "question": "A phrase is given which can be substituted by one word. Choose the most appropriate word explaining the phrase from the given options. The immediate repetition of a word or phrase, without any intervening words, to create emphasis or emotional intensity",
+    "options": {
+      "A": "Alliteration",
+      "B": "Refrain",
+      "C": "Epizeuxis",
+      "D": "Anaphora"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 21,
+    "subject": "English",
+    "question": "Choose the most appropriate antonym of the underlined word. The committee adopted an antagonistic stance, undermining collaboration and escalating tensions during high-stakes negotiations.",
+    "options": {
+      "A": "inauspicious",
+      "B": "truculent",
+      "C": "rancorous",
+      "D": "conciliatory"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 22,
+    "subject": "English",
+    "question": "Choose the word which is opposite in meaning to the given word. PUSILLANIMOUS",
+    "options": {
+      "A": "Craven",
+      "B": "Timorous",
+      "C": "Diffident",
+      "D": "Intrepid"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 23,
+    "subject": "English",
+    "question": "Choose the option which best expresses the meaning of the given idiom. Brevity is the soul of wit",
+    "options": {
+      "A": "Humor must always be lengthy.",
+      "B": "Conciseness enhances the impact of expression.",
+      "C": "Wisdom lies in silence alone.",
+      "D": "Complexity is the hallmark of intelligence."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "subject": "English",
+    "question": "Fill in the blank with the most appropriate word from the given options. The negotiator tried to ______ the sensitive issue tactfully, avoiding direct confrontation while still acknowledging its significance during the prolonged diplomatic engagement.",
+    "options": {
+      "A": "skirt over",
+      "B": "skirt around",
+      "C": "skirt through",
+      "D": "skirt off"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "subject": "English",
+    "question": "Read the following statements carefully and choose the most appropriate option from those given below. Assertion (A): Constant comparison weakens an individual’s sense of self-worth. Reason (R): External benchmarks make individuals dependent on validation from others.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "A is false, but R is true",
+      "C": "Both A and R are true, but R is not the correct explanation of A",
+      "D": "A is true, but R is false"
+    },
+    "answer": "A",
+    "passage": "Read the following passage carefully and answer the questions given below it. In an era characterized by relentless comparison, the pursuit of personal excellence is frequently overshadowed by the compulsion to outperform others. This externalization of ambition subtly distorts the purpose of effort, transforming growth into a competitive spectacle rather than an inward journey. Individuals, consequently, begin to calibrate their worth against fluctuating benchmarks, mistaking visibility for value. Such dependence on external validation not only destabilizes self-perception but also fosters a fragile sense of achievement that is contingent upon constant reinforcement. Paradoxically, genuine progress often necessitates a withdrawal from this comparative paradigm. When individuals reorient their focus toward intrinsic standards, they cultivate a more resilient and autonomous sense of purpose. However, this shift demands a deliberate disengagement from societal metrics that equate success with recognition. Those who undertake this transition may initially encounter dissonance, as their efforts lack immediate affirmation. Yet, over time, this internal anchoring engenders a deeper, more sustainable form of fulfillment. Thus, authentic excellence is less a function of surpassing others and more an outcome of sustained alignment between one’s aspirations and actions."
+  },
+  {
+    "id": 26,
+    "subject": "English",
+    "question": "How does the passage suggest individuals can achieve sustainable fulfillment?",
+    "options": {
+      "A": "By balancing external validation with periodic introspection to maintain social relevance",
+      "B": "By disengaging from comparisons and cultivating internally defined standards of growth",
+      "C": "By aligning their efforts with socially recognized benchmarks of measurable success",
+      "D": "By prioritizing visibility and recognition as indicators of consistent personal progress"
+    },
+    "answer": "B",
+    "passage": "Read the following passage carefully and answer the questions given below it. In an era characterized by relentless comparison, the pursuit of personal excellence is frequently overshadowed by the compulsion to outperform others. This externalization of ambition subtly distorts the purpose of effort, transforming growth into a competitive spectacle rather than an inward journey. Individuals, consequently, begin to calibrate their worth against fluctuating benchmarks, mistaking visibility for value. Such dependence on external validation not only destabilizes self-perception but also fosters a fragile sense of achievement that is contingent upon constant reinforcement. Paradoxically, genuine progress often necessitates a withdrawal from this comparative paradigm. When individuals reorient their focus toward intrinsic standards, they cultivate a more resilient and autonomous sense of purpose. However, this shift demands a deliberate disengagement from societal metrics that equate success with recognition. Those who undertake this transition may initially encounter dissonance, as their efforts lack immediate affirmation. Yet, over time, this internal anchoring engenders a deeper, more sustainable form of fulfillment. Thus, authentic excellence is less a function of surpassing others and more an outcome of sustained alignment between one’s aspirations and actions."
+  },
+  {
+    "id": 27,
+    "subject": "English",
+    "question": "Why does the passage describe externally driven achievement as “fragile”?",
+    "options": {
+      "A": "Because it relies on changing external validation that may not consistently be present",
+      "B": "Because it discourages individuals from participating in socially valued competitions",
+      "C": "Because it prevents individuals from setting ambitious and measurable performance goals",
+      "D": "Because it prioritizes internal satisfaction over widely accepted indicators of success"
+    },
+    "answer": "A",
+    "passage": "Read the following passage carefully and answer the questions given below it. In an era characterized by relentless comparison, the pursuit of personal excellence is frequently overshadowed by the compulsion to outperform others. This externalization of ambition subtly distorts the purpose of effort, transforming growth into a competitive spectacle rather than an inward journey. Individuals, consequently, begin to calibrate their worth against fluctuating benchmarks, mistaking visibility for value. Such dependence on external validation not only destabilizes self-perception but also fosters a fragile sense of achievement that is contingent upon constant reinforcement. Paradoxically, genuine progress often necessitates a withdrawal from this comparative paradigm. When individuals reorient their focus toward intrinsic standards, they cultivate a more resilient and autonomous sense of purpose. However, this shift demands a deliberate disengagement from societal metrics that equate success with recognition. Those who undertake this transition may initially encounter dissonance, as their efforts lack immediate affirmation. Yet, over time, this internal anchoring engenders a deeper, more sustainable form of fulfillment. Thus, authentic excellence is less a function of surpassing others and more an outcome of sustained alignment between one’s aspirations and actions."
+  },
+  {
+    "id": 28,
+    "subject": "English",
+    "question": "Select the most appropriate option to fill in blank (X).",
+    "options": {
+      "A": "harmonise",
+      "B": "regulate",
+      "C": "rationalise",
+      "D": "reassess"
+    },
+    "answer": "A",
+    "passage": "In the following passage, some words have been deleted. Fill in the blanks with the most appropriate word from the options given for each. India’s regulatory framework often attempts to ___X___ the irreconcilable economic interests while simultaneously ___Y___ the constitutional autonomy of oversight institutions, thereby avoiding policies that might appear superficially efficient yet structurally ___Z___ in long-term governance outcomes, particularly during periods marked by rapid privatization, uneven institutional accountability, and intensifying socioeconomic disparities."
+  },
+  {
+    "id": 29,
+    "subject": "English",
+    "question": "Select the most appropriate option to fill in blank (Y).",
+    "options": {
+      "A": "measuring",
+      "B": "standardising",
+      "C": "restructuring",
+      "D": "preserving"
+    },
+    "answer": "D",
+    "passage": "In the following passage, some words have been deleted. Fill in the blanks with the most appropriate word from the options given for each. India’s regulatory framework often attempts to ___X___ the irreconcilable economic interests while simultaneously ___Y___ the constitutional autonomy of oversight institutions, thereby avoiding policies that might appear superficially efficient yet structurally ___Z___ in long-term governance outcomes, particularly during periods marked by rapid privatization, uneven institutional accountability, and intensifying socioeconomic disparities."
+  },
+  {
+    "id": 30,
+    "subject": "English",
+    "question": "Select the most appropriate option to fill in blank (Z).",
+    "options": {
+      "A": "untenable",
+      "B": "inconsistent",
+      "C": "uneven",
+      "D": "impractical"
+    },
+    "answer": "A",
+    "passage": "In the following passage, some words have been deleted. Fill in the blanks with the most appropriate word from the options given for each. India’s regulatory framework often attempts to ___X___ the irreconcilable economic interests while simultaneously ___Y___ the constitutional autonomy of oversight institutions, thereby avoiding policies that might appear superficially efficient yet structurally ___Z___ in long-term governance outcomes, particularly during periods marked by rapid privatization, uneven institutional accountability, and intensifying socioeconomic disparities."
+  },
+  {
+    "id": 31,
+    "subject": "General Awareness",
+    "question": "Which of the following correctly evaluates the two statements regarding India's Foreign Direct Investment policy? Statement I: The Government of India permits Foreign Direct Investment under either the Automatic Route or the Government Route, depending on the sector. Statement II: Investment proposals under the Government Route require prior approval from the competent authority before investment is made.",
+    "options": {
+      "A": "Both Statement I and Statement II are correct",
+      "B": "Only Statement II is correct.",
+      "C": "Only Statement I is correct.",
+      "D": "Neither Statement I nor Statement II is correct"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 32,
+    "subject": "General Awareness",
+    "question": "The United Nations observed the International Day of Cooperatives in July 2026 under which of the following themes?",
+    "options": {
+      "A": "Cooperatives Building Shared Prosperity",
+      "B": "Cooperatives for a Peaceful World",
+      "C": "Cooperatives Driving Inclusive Growth",
+      "D": "Cooperatives for Sustainable Communities"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "subject": "General Awareness",
+    "question": "Which of the following personalities was posthumously honoured with the Padma Bhushan in 2026?",
+    "options": {
+      "A": "Shibu Soren",
+      "B": "P. Narayanan",
+      "C": "Dharmendra Singh Deol",
+      "D": "V. S. Achuthanandan"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "subject": "General Awareness",
+    "question": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason (R). Assertion (A): Fructose has the molecular formula C6H12O6 and on the basis of its reactions it was found to contain a ketonic functional group. Reason (R): Fructose is an amino acid, which is chemically defined as an optically active polyhydroxy aldehyde or ketone, or a compound that yields such units on hydrolysis.",
+    "options": {
+      "A": "Both A and R are correct, but R is not the correct explanation of A",
+      "B": "A is incorrect, but R is correct",
+      "C": "Both A and R are correct, and R is the correct explanation of A",
+      "D": "A is correct, but R is incorrect"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 35,
+    "subject": "General Awareness",
+    "question": "Match the following international trophies with the respective sports: List I (Trophy) List II (Sport) A. Sudirman Cup 1. Men's Professional Golf B. Walker Cup 2. Mixed Team Badminton C. Ryder Cup 3. Men's Amateur Golf D. Solheim Cup 4. Women's Golf Choose the correct answer: ",
+    "options": {
+      "A": "A–2, B–1, C–3, D–4",
+      "B": "A–2, B–3, C–1, D–4",
+      "C": "A–4, B–3, C–2, D–1",
+      "D": "A–1, B–2, C–4, D–3"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "subject": "General Awareness",
+    "question": "Consider the following statements regarding the drainage pattern of Indian rivers: I. A dendritic drainage pattern usually develops over regions having homogeneous rock structure. II. A trellis drainage pattern commonly develops where alternating hard and soft rock strata are present. III. Radial drainage develops where streams flow inward towards a central depression. IV. Rectangular drainage is generally associated with well faulted or jointed rock structures. Which of the statements given above are correct?",
+    "options": {
+      "A": "I and III only",
+      "B": "I, II and IV only",
+      "C": "II, III and IV only",
+      "D": "I, II, III and IV"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "subject": "General Awareness",
+    "question": "Consider the given statements with reference to the Joint Military Exercise LAMITIYE2026. 1. It is a military exercise between India and Seychelles that has been conducted annually since 2001. 2. The 2026 edition marked a significant milestone with the participation of all three services of the Indian Armed Forces. Which of the statements given above is/are correct?",
+    "options": {
+      "A": "Both 1 and 2",
+      "B": "2 only",
+      "C": "Neither 1 nor 2",
+      "D": "1 only"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "subject": "General Awareness",
+    "question": "In September 2025, the United Nations Security Council (UNSC) approved a resolution that transformed the existing mission in Haiti into what new entity?",
+    "options": {
+      "A": "Economic Development Mission",
+      "B": "Humanitarian Aid Force",
+      "C": "Peacekeeping Force for Haiti",
+      "D": "Gang Suppression Force"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 39,
+    "subject": "General Awareness",
+    "question": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason (R). Assertion (A): A State is constitutionally bound to exercise its executive power in a manner that does not prejudice the executive power of the Union. Reason (R): Article 257 establishes Union supremacy in certain executive matters to maintain constitutional coordination.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "A is true, but R is false",
+      "C": "Both A and R are true, but R is not the correct explanation of A",
+      "D": "A is false, but R is true"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "subject": "General Awareness",
+    "question": "In 2026, the Government of India launched the Cell Broadcast System (CBS) to strengthen emergency communication during disasters. The system was developed by which organisation?",
+    "options": {
+      "A": "National Informatics Centre (NIC)",
+      "B": "Centre for Development of Telematics (C-DOT)",
+      "C": "Bharat Electronics Limited (BEL)",
+      "D": "Indian Space Research Organisation (ISRO)"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "subject": "General Awareness",
+    "question": "Which of the following armed forces of India was established on 8 October 1932 and later had Subroto Mukerjee as its first Indian Chief?",
+    "options": {
+      "A": "Central Reserve Police Force",
+      "B": "Indian Airforce",
+      "C": "Indian Army",
+      "D": "Border Security Force"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "subject": "General Awareness",
+    "question": "As part of the Nuclear Energy Mission, Bhabha Atomic Research Centre (BARC) is developing a High-Temperature Gas-Cooled Reactor (HTGCR) primarily for ____________.",
+    "options": {
+      "A": "Thorium fuel reprocessing",
+      "B": "Hydrogen generation",
+      "C": "Medical isotope production",
+      "D": "Commercial electricity generation"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "subject": "General Awareness",
+    "question": "Consider the following statements regarding Operation Him Setu: 1.The operation was undertaken by the Indian Army's Trishakti Corps to rescue tourists stranded in North Sikkim following a landslide in April 2026. 2.The operation was carried out jointly by the Indian Army, the Indian Air Force, and the Indian Coast Guard, while it was launched solely by Indian Army. Which of the statements given above is/are correct?",
+    "options": {
+      "A": "1 only",
+      "B": "Both 1 and 2",
+      "C": "2 only",
+      "D": "Neither 1 nor 2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "subject": "General Awareness",
+    "question": "Match the historical events in List 1 with their corresponding features or results in List 2. List 1 List 2 (Event/Development) (Feature/Result) A. Surat Session 1907 1. Division between Moderates and Extremists B. Morley-Minto Reforms 2. Introduction of separate electorates for Muslims C. Home Rule Movement 3. Demand for self-government within the British Empire D. Alipore Bomb Case 4. Arrest and trial of Aurobindo Ghosh",
+    "options": {
+      "A": "A-2, B-1, C-3, D-4",
+      "B": "A-3, B-2, C-1, D-4",
+      "C": "A-1, B-3, C-2, D-4",
+      "D": "A-1, B-2, C-3, D-4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 45,
+    "subject": "General Awareness",
+    "question": "Which athlete became the first Indian woman to win two individual Olympic medals after securing a bronze medal at the Tokyo 2020 Olympic Games?",
+    "options": {
+      "A": "Saina Nehwal",
+      "B": "P. V. Sindhu",
+      "C": "Mary Kom",
+      "D": "Mirabai Chanu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 46,
+    "subject": "General Awareness",
+    "question": "Consider the following statements regarding Operation Ganga: 1. It rescued and evacuated thousands of stranded Indian citizens from Ukraine following the Russian invasion. 2. The entire cost of air travel for Indians evacuated under the operation was borne by the Government of India. Which of the statements given above is/are correct?",
+    "options": {
+      "A": "1 only",
+      "B": "2 only",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 47,
+    "subject": "General Awareness",
+    "question": "Which process is most directly responsible for the generation of tsunamis following underwater earthquakes?",
+    "options": {
+      "A": "Gravitational interaction between the Earth and the Moon",
+      "B": "Sudden vertical displacement of a large mass of seawater",
+      "C": "Surface-level atmospheric wind circulation",
+      "D": "Gradual movement of tectonic plates along the ocean floor"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 48,
+    "subject": "General Awareness",
+    "question": "The Union Cabinet approved the Mission for Cotton Productivity (2026–27 to 2030–31) in 2026. The mission aligns with the Government of India's 5F vision. Which of the following correctly expands the 5F vision?",
+    "options": {
+      "A": "Farm to Fibre to Factory to Fashion to Foreign",
+      "B": "Farm to Fibre to Fertiliser to Fashion to Freight",
+      "C": "Farm to Fabric to Factory to Finance to Foreign",
+      "D": "Farm to Food to Factory to Finance to Foreign"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "subject": "General Awareness",
+    "question": "Which of the following best describes the primary objective of the Green India Mission (GIM)?",
+    "options": {
+      "A": "Agricultural production through the use of green manure",
+      "B": "Ecological resilience through forest and ecosystem restoration",
+      "C": "Industrial growth through green infrastructure development",
+      "D": "Urban infrastructure through smart city development"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "subject": "General Awareness",
+    "question": "According to the Padma Awards announced by the Government of India in January 2026, which individual was conferred the Padma Vibhushan in the field of Literature and Education?",
+    "options": {
+      "A": "Vijay Amritraj",
+      "B": "Dr. Tessy Thomas",
+      "C": "P Narayanan",
+      "D": "Mammootty"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 51,
+    "subject": "General Awareness",
+    "question": "Match List I (Countries) with List II (their respective capital cities). List I List II A. Ethiopia 1. Nairobi B. Kenya 2. Khartoum C. Sudan 3. Addis Ababa D. Tanzania 4. Dodoma ",
+    "options": {
+      "A": "A-1, B-3, C-4, D-2",
+      "B": "A-4, B-2, C-3, D-1",
+      "C": "A-2, B-4, C-1, D-3",
+      "D": "A-3, B-1, C-2, D-4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 52,
+    "subject": "General Awareness",
+    "question": "Consider the following statements about the French Revolution: 1. It challenged the principle of absolute monarchy. 2. It preserved feudal privileges across France. 3. It promoted the principles of Liberty, Equality and Fraternity. Which of the above statements is/are correct?",
+    "options": {
+      "A": "1 and 3 only",
+      "B": "1, 2 and 3",
+      "C": "2 and 3 only",
+      "D": "1 only"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 53,
+    "subject": "General Awareness",
+    "question": "Which of the following is a well-known art form of joy and invocation primarily in Chhattisgarh, where both male and female enthusiastically participate in the group dance?",
+    "options": {
+      "A": "Lavani",
+      "B": "Cheraw",
+      "C": "Balti",
+      "D": "Gaur Maria"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 54,
+    "subject": "General Awareness",
+    "question": "The hantavirus cluster reported by the World Health Organization (WHO) in May 2026 was associated with travel aboard a cruise ship that was flagged to which country?",
+    "options": {
+      "A": "Norway",
+      "B": "Panama",
+      "C": "United Kingdom",
+      "D": "Netherlands"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 55,
+    "subject": "General Awareness",
+    "question": "Consider the following statements regarding Exercise Tiger Triumph: 1.The fourth edition of Exercise Tiger Triumph was conducted in 2025 at the Kushok Bakula Rimpochee Airport in Ladakh. 2.The participation of the Indian Air Force in Exercise Tiger Triumph enhances India's capability to undertake integrated air, land, and maritime operations during humanitarian assistance and disaster relief (HADR) missions. Which of the statements given above is/are correct?",
+    "options": {
+      "A": "1 only",
+      "B": "Neither 1 nor 2",
+      "C": "Both 1 and 2",
+      "D": "2 only"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 56,
+    "subject": "Numerical Ability",
+    "question": "A person invests a sum of money in a scheme offering annual compounding. After 2 years, the compound interest amounts to ₹815.10, whereas the simple interest on the same principal at the same interest rate for the same duration would have been ₹780. Determine the rate of interest per annum.",
+    "options": {
+      "A": "8%",
+      "B": "12.5%",
+      "C": "9%",
+      "D": "10%"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 57,
+    "subject": "Numerical Ability",
+    "question": "Three pipes A, B, and C can fill a tank individually in 8 hours, 12 hours, and 24 hours, respectively. If all three pipes are opened at the same time, how long will it take to completely fill the tank?",
+    "options": {
+      "A": "4 hours",
+      "B": "6 hours",
+      "C": "8 hours",
+      "D": "5 hours"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 58,
+    "subject": "Numerical Ability",
+    "question": "A drone is hovering above a calm river. An observer standing on a watchtower 120 meters above the river level observes the drone at an angle of elevation of 300and its reflection in the river at an angle of depression of 600. Find the height of the drone above the river.",
+    "options": {
+      "A": "120 meters",
+      "B": "240 meters",
+      "C": "180 meters",
+      "D": "300 meters"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 59,
+    "subject": "Numerical Ability",
+    "question": "A container is filled with a mixture of milk and water in the ratio 7 : 3. Some quantity of the mixture is removed and replaced with pure water. After this operation, the ratio of milk to water becomes 1 : 1. What fraction of the original mixture was removed and replaced?",
+    "options": {
+      "A": "5/7",
+      "B": "1/7",
+      "C": "2/7",
+      "D": "3/7"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 60,
+    "subject": "Numerical Ability",
+    "question": "A shopkeeper sold 32 pens at 25% profit and 20 pens at 14% profit. The total profit would have been ₹15.60 less, if all pens were sold at 15% profit. Find the cost price of each pen.",
+    "options": {
+      "A": "₹5.20",
+      "B": "₹6.80",
+      "C": "₹7.35",
+      "D": "₹6.25"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 61,
+    "subject": "Numerical Ability",
+    "question": "A conical container of radius 7 centimeters and height 18 centimeters is completely filled with milk. The milk is poured into cylindrical glasses, each of radius 3.5 centimeters and height 3 centimeters. How many such glasses can be completely filled?",
+    "options": {
+      "A": "9",
+      "B": "7",
+      "C": "5",
+      "D": "8"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 62,
+    "subject": "Numerical Ability",
+    "question": "If K = 216 , then find the value of ∛K + ∛K²",
+    "options": {
+      "A": "24",
+      "B": "36",
+      "C": "42",
+      "D": "40"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 63,
+    "subject": "Numerical Ability",
+    "question": "A trader purchased 15 articles. He sold some of them to a first customer at a gain of 4% and the remaining to another customer at a gain of 7%. If he gains 5% on the whole, how many articles did he sell to the first customer?",
+    "options": {
+      "A": "9",
+      "B": "12",
+      "C": "8",
+      "D": "10"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 64,
+    "subject": "Numerical Ability",
+    "question": "Three numbers are in the ratio 2:3:4. The LCM of the first two numbers is 180 and the LCM of the last two numbers is 360. Find the difference between the LCM and HCF of all three numbers.",
+    "options": {
+      "A": "290",
+      "B": "330",
+      "C": "300",
+      "D": "280"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 65,
+    "subject": "Numerical Ability",
+    "question": "Three solutions A, B, and C contain alcohol in the proportions 30%, 50%, and 80%, respectively. They are mixed to form a new solution containing 55% alcohol. If solutions A and B are taken in equal quantities, find the ratio of the combined quantity of (A + B) to the quantity of C.",
+    "options": {
+      "A": "3 : 2",
+      "B": "2 : 3",
+      "C": "5 : 3",
+      "D": "4 : 3"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 66,
+    "subject": "Numerical Ability",
+    "question": "If mean of the data 11, 17, x + 1, 3x, 19, 2x – 4, x + 5 is 21, then find the mode of the data.",
+    "options": {
+      "A": "19",
+      "B": "15",
+      "C": "17",
+      "D": "11"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 67,
+    "subject": "Numerical Ability",
+    "question": "Three bells ring at intervals of 12 minutes, 15 minutes and 18 minutes. If they all ring together at 8:00 AM, at what time will they next ring together?",
+    "options": {
+      "A": "11:30 AM",
+      "B": "11:00 AM",
+      "C": "11:15 AM",
+      "D": "10:45 AM"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 68,
+    "subject": "Numerical Ability",
+    "question": "In an election between two candidates, 80% of the registered voters cast their votes and 10% of the votes polled were found invalid. The winning candidate got 60% of the valid votes and won the election by a margin of 288 votes. How many voters were registered?",
+    "options": {
+      "A": "2200",
+      "B": "1500",
+      "C": "1800",
+      "D": "2000"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 69,
+    "subject": "Numerical Ability",
+    "question": "If 15 workers can build a 1500 m long road in 25 days, working 8 hours a day, how many days will 16 workers take to build a 2400 m long road, working 6 hours a day?",
+    "options": {
+      "A": "50 days",
+      "B": "30 days",
+      "C": "36 days",
+      "D": "44 days"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 70,
+    "subject": "Numerical Ability",
+    "question": "A train covers a certain distance in 1 hour 45 minutes and another train covers twice the distance travelled by the first train in 2 hours 45 minutes. What is the ratio of their speeds?",
+    "options": {
+      "A": "7 : 11",
+      "B": "11 : 14",
+      "C": "1 : 7",
+      "D": "1 : 2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 71,
+    "subject": "Numerical Ability",
+    "question": "Arun and Tarun started a business with capitals of ₹12,500 and 10,000 respectively. After 5 months, Arun withdrew a certain amount from his capital which was equal to 62.5% of the amount that Tarun added to his capital after two more months. If they share the profits at the end of the year in a ratio 1 : 1, what amount did Tarun add to his capital?",
+    "options": {
+      "A": "₹3,100",
+      "B": "₹2,900",
+      "C": "₹3,200",
+      "D": "₹2,800"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 72,
+    "subject": "Numerical Ability",
+    "question": "A number is selected at random from the natural numbers 1 to 100. Find the probability that it is either a multiple of 4 or a multiple of 6.",
+    "options": {
+      "A": "39/100",
+      "B": "37/100",
+      "C": "33/100",
+      "D": "41/100"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 73,
+    "subject": "Numerical Ability",
+    "question": "Simplify: (5.6 ÷ 0.8) + (3.5 × 6 ÷ 7) - (3.6 ÷ 0.6)",
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "3",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 74,
+    "subject": "Numerical Ability",
+    "question": "The perimeter of a parallelogram is 264 cm. One side is 6 cm longer than the adjacent side. The area of the parallelogram is calculated using these dimensions as base and corresponding height. A rectangle is formed whose length is twice the longer side of the parallelogram and whose breadth is 32 cm. Find the positive difference between their areas.",
+    "options": {
+      "A": "72 cm²",
+      "B": "69 cm²",
+      "C": "58 cm²",
+      "D": "64 cm²"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 75,
+    "subject": "Numerical Ability",
+    "question": "A satellite signal weakens by a factor of 10⁻³ each hour. If the initial strength is 10⁶, what is the strength after 4 hours?",
+    "options": {
+      "A": "10⁻⁶",
+      "B": "10⁻⁸",
+      "C": "10⁻¹²",
+      "D": "10⁻³"
+    },
+    "answer": "A"
+  }
+]
