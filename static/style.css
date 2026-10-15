@@ -4,13 +4,15 @@
 
 body {
     margin: 0;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
+
 .page {
     width: calc(100% - 36px);
     margin: 18px auto;
     border: 2px solid #111;
 }
+
 .header {
     height: 64px;
     display: flex;
@@ -19,46 +21,53 @@ body {
     padding: 0 28px;
     border-bottom: 2px solid #111;
 }
+
 .logo {
     font-size: 25px;
     font-weight: 700;
 }
+
 .navbar {
     display: flex;
     gap: 38px;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: #111;
     font-size: 16px;
     font-weight: 600;
 }
 
-.hero{
+.hero {
     text-align: center;
     padding: 80px 20px;
     letter-spacing: 2px;
 }
-.hero p{
+
+.hero p {
     font-size: 18px;
     margin: 16px 0 0;
 }
-.subjects{
+
+.subjects {
     padding: 40px 28px;
 }
-.subjects h2{
+
+.subjects h2 {
     text-align: center;
     font-size: 32px;
     margin: 0 0 32px;
 }
-.subject-grid{
+
+.subject-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
-.subject-card{
+
+.subject-card {
     border: 2px solid black;
     padding: 30px;
     width: 280px;
@@ -66,14 +75,16 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.subject-card button{
+
+.subject-card button {
     padding: 10px 20px;
     background-color: black;
     color: white;
     border: none;
     cursor: pointer;
 }
-.full-test-card{
+
+.full-test-card {
     border: 2px solid black;
     padding: 30px;
     margin: 40px auto 0;
@@ -86,7 +97,7 @@ body {
     justify-content: center;
 }
 
-.full-test-card button{
+.full-test-card button {
     padding: 10px 20px;
     background-color: black;
     color: white;
@@ -94,19 +105,66 @@ body {
     cursor: pointer;
 }
 
-.subject-card img{
+.subject-card img {
     width: 80px;
     height: 80px;
     margin-bottom: 6px;
 }
-.full-test-card img{
+
+.full-test-card img {
     width: 100px;
     height: 100px;
     margin-bottom: 6px;
 }
 
-/* Result page css */
-.result-header{
+
+/* ============================= */
+/* RANDOM QUIZ                   */
+/* ============================= */
+
+.random-test-card {
+    border: 2px solid black;
+    padding: 30px;
+    margin: 40px auto 0;
+    text-align: center;
+    max-width: 1180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-test-card h2 {
+    margin: 0 0 10px;
+    font-size: 28px;
+}
+
+.random-test-card p {
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.random-test-card button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.random-test-card button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+/* ============================= */
+/* RESULT PAGE CSS               */
+/* ============================= */
+
+.result-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,42 +173,42 @@ body {
     margin: 0;
 
     border-bottom: 4px solid black;
-
 }
-.result-header h1{
+
+.result-header h1 {
     margin: 0;
     font-size: 24px;
 }
-.result-header p{
+
+.result-header p {
     margin: 0;
     font-size: 16px;
 }
-
 
 main {
     text-align: center;
     padding: 40px 20px;
 }
+
 main > h2 {
     margin: 0;
     font-size: 32px;
     border-bottom: 3px solid black;
-    font-size: 32px;
     display: inline-block;
 }
 
-main > p{
+main > p {
     margin: 6px 0 30px;
 }
 
-.result-container{
+.result-container {
     display: flex;
     gap: 40px;
     max-width: 900px;
     margin: 0 auto;
 }
 
-.result-card{
+.result-card {
     flex: 1;
     border: 1px solid black;
     padding: 25px;
@@ -163,39 +221,43 @@ main > p{
     padding: 25px;
     text-align: center;
 }
-.result-card h3{
+
+.result-card h3 {
     margin-top: 0;
     margin-bottom: 20px;
     text-align: center;
 }
+
 .score-card h3 {
     margin-top: 0;
     margin-bottom: 20px;
 }
 
-.result-card p{
+.result-card p {
     margin: 10px 0;
     padding-bottom: 8px;
     border-bottom: 1px solid #ddd;
 }
 
-.score-card h2{
+.score-card h2 {
     margin: 20px 0 10px;
     font-size: 48px;
     font-weight: bold;
 }
 
-.score-card p{
+.score-card p {
     margin: 0;
     font-size: 18px;
 }
-.result-buttons{
+
+.result-buttons {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.result-buttons button{
+
+.result-buttons button {
     margin: 0 5px;
     padding: 10px 20px;
     background-color: black;
@@ -205,8 +267,9 @@ main > p{
 }
 
 
-
-/* Test Page */
+/* ============================= */
+/* TEST PAGE CSS                 */
+/* ============================= */
 
 .test-header {
     display: flex;
@@ -226,12 +289,10 @@ main > p{
     font-size: 16px;
 }
 
-
 .test-container {
     width: 1180px;
     margin: 40px auto;
 }
-
 
 .test-top {
     display: flex;
@@ -245,7 +306,6 @@ main > p{
     font-size: 17px;
 }
 
-
 .question-card {
     border: 1px solid black;
     padding: 30px;
@@ -255,7 +315,6 @@ main > p{
     margin: 0 0 25px;
     font-size: 24px;
 }
-
 
 .options {
     display: flex;
@@ -272,7 +331,6 @@ main > p{
     cursor: pointer;
 }
 
-
 .test-navigation {
     display: flex;
     justify-content: space-between;
@@ -287,7 +345,6 @@ main > p{
     cursor: pointer;
 }
 
-
 .question-palette {
     margin-top: 40px;
     padding: 20px;
@@ -297,7 +354,6 @@ main > p{
 .question-palette h3 {
     margin: 0 0 15px;
 }
-
 
 .question-numbers {
     display: flex;
@@ -314,7 +370,6 @@ main > p{
     cursor: pointer;
 }
 
-
 #submit-btn {
     display: block;
     margin: 30px auto 0;
@@ -323,4 +378,262 @@ main > p{
     color: white;
     border: none;
     cursor: pointer;
+}
+
+/* ============================= */
+/* RESPONSIVE DESIGN              */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    /* Main page */
+
+    .page {
+        width: calc(100% - 16px);
+        margin: 8px auto;
+    }
+
+
+    /* Header */
+
+    .header {
+        height: auto;
+        min-height: 64px;
+        padding: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar {
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+
+    /* Subjects */
+
+    .subjects {
+        padding: 30px 15px;
+    }
+
+    .subjects > h2 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+
+    /* Subject cards */
+
+    .subject-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .subject-card {
+        width: 100%;
+        max-width: 400px;
+        padding: 25px;
+    }
+
+
+    /* Full test */
+
+    .full-test-card {
+        width: 100%;
+        margin-top: 30px;
+        padding: 25px 15px;
+    }
+
+
+    /* Random quiz */
+
+    .random-test-card {
+        width: 100%;
+        margin-top: 25px;
+        padding: 25px 15px;
+    }
+
+    .random-test-card h2 {
+        font-size: 25px;
+    }
+
+
+    /* Result page */
+
+    .result-header {
+        padding: 15px;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .result-container {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .result-card,
+    .score-card {
+        width: 100%;
+    }
+
+    .result-buttons {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+
+    /* Test page */
+
+    .test-header {
+        padding: 15px;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .test-container {
+        width: calc(100% - 20px);
+        margin: 25px auto;
+    }
+
+    .test-top {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .question-card {
+        padding: 20px 15px;
+    }
+
+    .question-card h2 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .option {
+        padding: 14px 12px;
+        font-size: 15px;
+    }
+
+
+    /* Navigation */
+
+    .test-navigation {
+        gap: 10px;
+    }
+
+    .test-navigation button {
+        flex: 1;
+        padding: 12px 10px;
+    }
+
+
+    /* Question palette */
+
+    .question-palette {
+        margin-top: 25px;
+        padding: 15px;
+    }
+
+    .question-numbers {
+        gap: 7px;
+    }
+
+    .question-numbers button {
+        width: 38px;
+        height: 38px;
+    }
+
+
+    /* Submit */
+
+    #submit-btn {
+        width: 100%;
+        margin-top: 25px;
+        padding: 13px;
+    }
+}
+
+
+/* ============================= */
+/* VERY SMALL PHONES              */
+/* ============================= */
+
+@media (max-width: 400px) {
+
+    .page {
+        width: calc(100% - 10px);
+        margin: 5px auto;
+    }
+
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .subjects {
+        padding: 25px 10px;
+    }
+
+    .subjects > h2 {
+        font-size: 23px;
+    }
+
+    .subject-card {
+        padding: 20px 15px;
+    }
+
+    .full-test-card,
+    .random-test-card {
+        padding: 20px 10px;
+    }
+
+    .test-container {
+        width: calc(100% - 10px);
+    }
+
+    .question-card {
+        padding: 18px 12px;
+    }
+
+    .question-card h2 {
+        font-size: 18px;
+    }
+
+    .question-numbers button {
+        width: 35px;
+        height: 35px;
+    }
 }

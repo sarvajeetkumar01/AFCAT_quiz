@@ -5,6 +5,60 @@ let answers = [];
 let isSubmitted = false;
 
 
+// Random Quiz button
+
+const randomQuizButton = document.getElementById("random-quiz-btn");
+
+if (randomQuizButton) {
+
+    randomQuizButton.addEventListener("click", function () {
+
+        fetch("/static/random.json")
+            .then(function(response) {
+
+                return response.json();
+
+            })
+            .then(function(data) {
+
+                // Shuffle questions
+                data.sort(function() {
+
+                    return Math.random() - 0.5;
+
+                });
+
+
+                // Pick 10 random questions
+                const randomQuestions = data.slice(0, 10);
+
+
+                // Save random questions
+                sessionStorage.setItem(
+                    "randomQuestions",
+                    JSON.stringify(randomQuestions)
+                );
+
+
+                // Remember that this is a random quiz
+                sessionStorage.setItem("testType", "random");
+
+
+                // Go to test page
+                window.location.href = "/test";
+
+            })
+            .catch(function(error) {
+
+                console.error("Error loading questions:", error);
+
+            });
+
+    });
+
+}
+
+
 // HTML elements
 
 const questionElement = document.getElementById("question");
@@ -17,297 +71,335 @@ const questionNumbersElement = document.getElementById("question-numbers");
 const submitButton = document.getElementById("submit-btn");
 
 
-// Load questions from JSON
+// Only run quiz code on test page
 
-fetch("/static/afcat_2_2026.json")
-    .then(function(response) {
+if (questionElement) {
 
-        return response.json();
+    // Check for Random Quiz questions
 
-    })
-    .then(function(data) {
+    const savedRandomQuestions =
+        sessionStorage.getItem("randomQuestions");
 
-        questions = data;
+
+    if (savedRandomQuestions) {
+
+        questions = JSON.parse(savedRandomQuestions);
 
         showQuestion();
         createQuestionNumbers();
 
-    })
-    .catch(function(error) {
+    }
 
-        console.error("Error loading questions:", error);
 
-    });
+    else {
 
+        // Load normal full test
 
-// Show question
+        fetch("/static/afcat_2_2026.json")
+            .then(function(response) {
 
-function showQuestion() {
+                return response.json();
 
-    questionElement.textContent = questions[currentQuestion].question;
+            })
+            .then(function(data) {
 
-    questionNumberElement.textContent = currentQuestion + 1;
+                questions = data;
 
-    totalQuestionsElement.textContent = questions.length;
+                showQuestion();
 
-    optionsElement.innerHTML = "";
+                createQuestionNumbers();
 
+            })
+            .catch(function(error) {
 
-    Object.entries(questions[currentQuestion].options).forEach(function ([letter, option]) {
+                console.error("Error loading questions:", error);
 
-        const button = document.createElement("button");
-
-        button.classList.add("option");
-
-        button.textContent = option;
-
-
-        // Show selected answer
-
-        if (answers[currentQuestion] === letter) {
-
-            button.style.backgroundColor = "black";
-
-            button.style.color = "white";
-
-        }
-
-
-        // Select answer
-
-        button.addEventListener("click", function () {
-
-            answers[currentQuestion] = letter;
-
-            showQuestion();
-
-            createQuestionNumbers();
-
-        });
-
-
-        optionsElement.appendChild(button);
-
-    });
-
-}
-
-
-// Create question numbers
-
-function createQuestionNumbers() {
-
-    questionNumbersElement.innerHTML = "";
-
-
-    questions.forEach(function (question, index) {
-
-        const button = document.createElement("button");
-
-        button.textContent = index + 1;
-
-
-        // Current question
-
-        if (index === currentQuestion) {
-
-            button.style.backgroundColor = "black";
-
-            button.style.color = "white";
-
-        }
-
-
-        // Answered question
-
-        else if (answers[index] !== undefined) {
-
-            button.style.backgroundColor = "#ddd";
-
-            button.style.color = "black";
-
-        }
-
-
-        button.addEventListener("click", function () {
-
-            currentQuestion = index;
-
-            showQuestion();
-
-            createQuestionNumbers();
-
-        });
-
-
-        questionNumbersElement.appendChild(button);
-
-    });
-
-}
-
-
-// Calculate result
-
-function calculateResult(autoSubmit = false) {
-
-    if (isSubmitted) {
-
-        return;
+            });
 
     }
 
 
-    let correct = 0;
-    let wrong = 0;
-    let unattempted = 0;
+    // Show question
+
+    function showQuestion() {
+
+        questionElement.textContent =
+            questions[currentQuestion].question;
+
+        questionNumberElement.textContent =
+            currentQuestion + 1;
+
+        totalQuestionsElement.textContent =
+            questions.length;
+
+        optionsElement.innerHTML = "";
 
 
-    questions.forEach(function (question, index) {
+        Object.entries(
+            questions[currentQuestion].options
+        ).forEach(function ([letter, option]) {
 
-        if (answers[index] === undefined) {
+            const button = document.createElement("button");
 
-            unattempted++;
+            button.classList.add("option");
 
-        }
-
-        else if (answers[index] === question.answer) {
-
-            correct++;
-
-        }
-
-        else {
-
-            wrong++;
-
-        }
-
-    });
+            button.textContent = option;
 
 
-    // Confirm normal submission if questions are unanswered
+            // Show selected answer
 
-    if (unattempted > 0 && autoSubmit === false) {
+            if (answers[currentQuestion] === letter) {
 
-        const confirmSubmit = confirm(
-            "You have " + unattempted +
-            " unanswered question(s). Are you sure you want to submit?"
-        );
+                button.style.backgroundColor = "black";
+
+                button.style.color = "white";
+
+            }
 
 
-        if (!confirmSubmit) {
+            // Select answer
+
+            button.addEventListener("click", function () {
+
+                answers[currentQuestion] = letter;
+
+                showQuestion();
+
+                createQuestionNumbers();
+
+            });
+
+
+            optionsElement.appendChild(button);
+
+        });
+
+    }
+
+
+    // Create question numbers
+
+    function createQuestionNumbers() {
+
+        questionNumbersElement.innerHTML = "";
+
+
+        questions.forEach(function (question, index) {
+
+            const button = document.createElement("button");
+
+            button.textContent = index + 1;
+
+
+            // Current question
+
+            if (index === currentQuestion) {
+
+                button.style.backgroundColor = "black";
+
+                button.style.color = "white";
+
+            }
+
+
+            // Answered question
+
+            else if (answers[index] !== undefined) {
+
+                button.style.backgroundColor = "#ddd";
+
+                button.style.color = "black";
+
+            }
+
+
+            button.addEventListener("click", function () {
+
+                currentQuestion = index;
+
+                showQuestion();
+
+                createQuestionNumbers();
+
+            });
+
+
+            questionNumbersElement.appendChild(button);
+
+        });
+
+    }
+
+
+    // Calculate result
+
+    function calculateResult(autoSubmit = false) {
+
+        if (isSubmitted) {
 
             return;
 
         }
 
+
+        let correct = 0;
+
+        let wrong = 0;
+
+        let unattempted = 0;
+
+
+        questions.forEach(function (question, index) {
+
+            if (answers[index] === undefined) {
+
+                unattempted++;
+
+            }
+
+            else if (answers[index] === question.answer) {
+
+                correct++;
+
+            }
+
+            else {
+
+                wrong++;
+
+            }
+
+        });
+
+
+        // Confirm normal submission if questions are unanswered
+
+        if (unattempted > 0 && autoSubmit === false) {
+
+            const confirmSubmit = confirm(
+
+                "You have " + unattempted +
+                " unanswered question(s). Are you sure you want to submit?"
+
+            );
+
+
+            if (!confirmSubmit) {
+
+                return;
+
+            }
+
+        }
+
+
+        isSubmitted = true;
+
+
+        let totalQuestions = questions.length;
+
+        let score = correct;
+
+        let accuracy = 0;
+
+
+        if (totalQuestions > 0) {
+
+            accuracy = (correct / totalQuestions) * 100;
+
+        }
+
+
+        window.location.href =
+
+            "/result?total=" + totalQuestions +
+            "&correct=" + correct +
+            "&wrong=" + wrong +
+            "&unattempted=" + unattempted +
+            "&score=" + score +
+            "&accuracy=" + accuracy.toFixed(2);
+
     }
 
 
-    isSubmitted = true;
+    // Next button
+
+    nextButton.addEventListener("click", function () {
+
+        if (currentQuestion < questions.length - 1) {
+
+            currentQuestion++;
+
+            showQuestion();
+
+            createQuestionNumbers();
+
+        }
+
+    });
 
 
-    let totalQuestions = questions.length;
+    // Previous button
 
-    let score = correct;
+    previousButton.addEventListener("click", function () {
 
-    let accuracy = 0;
+        if (currentQuestion > 0) {
+
+            currentQuestion--;
+
+            showQuestion();
+
+            createQuestionNumbers();
+
+        }
+
+    });
 
 
-    if (totalQuestions > 0) {
+    // Submit button
 
-        accuracy = (correct / totalQuestions) * 100;
+    submitButton.addEventListener("click", function () {
 
-    }
+        calculateResult();
+
+    });
 
 
-    window.location.href =
-        "/result?total=" + totalQuestions +
-        "&correct=" + correct +
-        "&wrong=" + wrong +
-        "&unattempted=" + unattempted +
-        "&score=" + score +
-        "&accuracy=" + accuracy.toFixed(2);
+    // Timer
+
+    let timeLeft = 120 * 60;
+
+    const timerElement = document.getElementById("timer");
+
+
+    const timer = setInterval(function () {
+
+        let minutes = Math.floor(timeLeft / 60);
+
+        let seconds = timeLeft % 60;
+
+
+        if (seconds < 10) {
+
+            seconds = "0" + seconds;
+
+        }
+
+
+        timerElement.textContent =
+            minutes + ":" + seconds;
+
+        timeLeft--;
+
+
+        if (timeLeft < 0) {
+
+            clearInterval(timer);
+
+            calculateResult(true);
+
+        }
+
+    }, 1000);
 
 }
-
-
-// Next button
-
-nextButton.addEventListener("click", function () {
-
-    if (currentQuestion < questions.length - 1) {
-
-        currentQuestion++;
-
-        showQuestion();
-
-        createQuestionNumbers();
-
-    }
-
-});
-
-
-// Previous button
-
-previousButton.addEventListener("click", function () {
-
-    if (currentQuestion > 0) {
-
-        currentQuestion--;
-
-        showQuestion();
-
-        createQuestionNumbers();
-
-    }
-
-});
-
-
-// Submit button
-
-submitButton.addEventListener("click", function () {
-
-    calculateResult();
-
-});
-
-
-// Timer
-
-let timeLeft = 120 * 60;
-
-const timerElement = document.getElementById("timer");
-
-
-const timer = setInterval(function () {
-
-    let minutes = Math.floor(timeLeft / 60);
-
-    let seconds = timeLeft % 60;
-
-
-    if (seconds < 10) {
-
-        seconds = "0" + seconds;
-
-    }
-
-
-    timerElement.textContent = minutes + ":" + seconds;
-
-    timeLeft--;
-
-
-    if (timeLeft < 0) {
-
-        clearInterval(timer);
-
-        calculateResult(true);
-
-    }
-
-}, 1000);

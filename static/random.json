@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "subject": "Python",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": {
+      "A": "func",
+      "B": "define",
+      "C": "def",
+      "D": "function"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "subject": "Python",
+    "question": "Which of the following is immutable in Python?",
+    "options": {
+      "A": "List",
+      "B": "Dictionary",
+      "C": "Set",
+      "D": "Tuple"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 3,
+    "subject": "Python",
+    "question": "What is the output of print(2 ** 3)?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "12"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "subject": "Python",
+    "question": "Which data type stores key-value pairs?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Dictionary",
+      "D": "Set"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "subject": "Python",
+    "question": "What does len([10, 20, 30]) return?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "30"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 6,
+    "subject": "Python",
+    "question": "Which symbol is used for a single-line comment in Python?",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "--"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 7,
+    "subject": "Python",
+    "question": "What is the output of print(type(10))?",
+    "options": {
+      "A": "<class 'int'>",
+      "B": "<class 'float'>",
+      "C": "<class 'number'>",
+      "D": "<type 'integer'>"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "subject": "Python",
+    "question": "Which method adds an element to the end of a list?",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insertEnd()",
+      "D": "push()"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "subject": "Python",
+    "question": "What is the output of print(10 // 3)?",
+    "options": {
+      "A": "3",
+      "B": "3.33",
+      "C": "1",
+      "D": "4"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "subject": "Python",
+    "question": "Which statement is used to handle exceptions?",
+    "options": {
+      "A": "catch",
+      "B": "error",
+      "C": "try",
+      "D": "handle"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 11,
+    "subject": "Python",
+    "question": "Which keyword creates an anonymous function?",
+    "options": {
+      "A": "anonymous",
+      "B": "lambda",
+      "C": "inline",
+      "D": "def"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "subject": "Python",
+    "question": "What does range(5) produce?",
+    "options": {
+      "A": "1 to 5",
+      "B": "0 to 5 inclusive",
+      "C": "0 to 4",
+      "D": "1 to 4"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "subject": "Python",
+    "question": "Which operator checks object identity?",
+    "options": {
+      "A": "==",
+      "B": "=",
+      "C": "is",
+      "D": "!="
+    },
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "subject": "Python",
+    "question": "Which of these is a valid Python list?",
+    "options": {
+      "A": "{1, 2, 3}",
+      "B": "[1, 2, 3]",
+      "C": "(1, 2, 3)",
+      "D": "<1, 2, 3>"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "subject": "Python",
+    "question": "What is the output of print('Python'[0])?",
+    "options": {
+      "A": "P",
+      "B": "y",
+      "C": "n",
+      "D": "Python"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "subject": "Python",
+    "question": "Which built-in function converts a string to an integer?",
+    "options": {
+      "A": "str()",
+      "B": "float()",
+      "C": "int()",
+      "D": "integer()"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 17,
+    "subject": "Python",
+    "question": "What does break do inside a loop?",
+    "options": {
+      "A": "Skips the current iteration",
+      "B": "Terminates the loop",
+      "C": "Restarts the loop",
+      "D": "Pauses the loop"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "subject": "Python",
+    "question": "Which collection contains only unique elements?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Set",
+      "D": "String"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "subject": "Python",
+    "question": "What is the output of print(bool(0))?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "0",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "subject": "Python",
+    "question": "Which keyword is used to import a module?",
+    "options": {
+      "A": "include",
+      "B": "using",
+      "C": "import",
+      "D": "require"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 21,
+    "subject": "Python",
+    "question": "What is the output of print([1, 2] + [3, 4])?",
+    "options": {
+      "A": "[1, 2, 3, 4]",
+      "B": "[4, 6]",
+      "C": "[1, 2][3, 4]",
+      "D": "Error"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "subject": "Python",
+    "question": "Which method removes and returns the last element of a list by default?",
+    "options": {
+      "A": "delete()",
+      "B": "remove()",
+      "C": "pop()",
+      "D": "discard()"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 23,
+    "subject": "Python",
+    "question": "Which Python feature allows a function to remember variables from its enclosing scope?",
+    "options": {
+      "A": "Closure",
+      "B": "Casting",
+      "C": "Overloading",
+      "D": "Iteration"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "subject": "Python",
+    "question": "What does None represent in Python?",
+    "options": {
+      "A": "Zero",
+      "B": "An empty string",
+      "C": "Absence of a value",
+      "D": "False only"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 25,
+    "subject": "Python",
+    "question": "Which keyword is used to create a class?",
+    "options": {
+      "A": "object",
+      "B": "class",
+      "C": "struct",
+      "D": "new"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "subject": "DSA",
+    "question": "Which data structure follows LIFO?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Linked List",
+      "D": "Heap"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 27,
+    "subject": "DSA",
+    "question": "Which data structure follows FIFO?",
+    "options": {
+      "A": "Stack",
+      "B": "Tree",
+      "C": "Queue",
+      "D": "Graph"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 28,
+    "subject": "DSA",
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(log n)",
+      "C": "O(n log n)",
+      "D": "O(1)"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 29,
+    "subject": "DSA",
+    "question": "What is the worst-case time complexity of linear search?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n log n)"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 30,
+    "subject": "DSA",
+    "question": "Which data structure is commonly used to implement recursion?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Heap",
+      "D": "Graph"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 31,
+    "subject": "DSA",
+    "question": "Which traversal visits Root, Left, Right in a binary tree?",
+    "options": {
+      "A": "Inorder",
+      "B": "Postorder",
+      "C": "Preorder",
+      "D": "Level order"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 32,
+    "subject": "DSA",
+    "question": "Which traversal visits Left, Root, Right in a binary tree?",
+    "options": {
+      "A": "Preorder",
+      "B": "Inorder",
+      "C": "Postorder",
+      "D": "Level order"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "subject": "DSA",
+    "question": "Which traversal visits Left, Right, Root in a binary tree?",
+    "options": {
+      "A": "Preorder",
+      "B": "Inorder",
+      "C": "Postorder",
+      "D": "Level order"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 34,
+    "subject": "DSA",
+    "question": "Which sorting algorithm has average-case time complexity O(n log n)?",
+    "options": {
+      "A": "Bubble Sort",
+      "B": "Selection Sort",
+      "C": "Merge Sort",
+      "D": "Linear Search"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "subject": "DSA",
+    "question": "What is the worst-case time complexity of Bubble Sort?",
+    "options": {
+      "A": "O(log n)",
+      "B": "O(n)",
+      "C": "O(n log n)",
+      "D": "O(n²)"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 36,
+    "subject": "DSA",
+    "question": "Which sorting algorithm is based on divide and conquer?",
+    "options": {
+      "A": "Merge Sort",
+      "B": "Bubble Sort",
+      "C": "Selection Sort",
+      "D": "Counting Sort"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 37,
+    "subject": "DSA",
+    "question": "Which data structure is best suited for representing hierarchical relationships?",
+    "options": {
+      "A": "Array",
+      "B": "Tree",
+      "C": "Stack",
+      "D": "Queue"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "subject": "DSA",
+    "question": "A graph consists primarily of which two components?",
+    "options": {
+      "A": "Roots and leaves",
+      "B": "Keys and values",
+      "C": "Vertices and edges",
+      "D": "Nodes and stacks"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 39,
+    "subject": "DSA",
+    "question": "Which algorithm finds shortest paths from a source when edge weights are non-negative?",
+    "options": {
+      "A": "Dijkstra's algorithm",
+      "B": "Binary Search",
+      "C": "Kruskal's algorithm",
+      "D": "DFS"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "subject": "DSA",
+    "question": "Which algorithm is used to find a minimum spanning tree?",
+    "options": {
+      "A": "Binary Search",
+      "B": "Kruskal's algorithm",
+      "C": "Floyd-Warshall",
+      "D": "DFS"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "subject": "DSA",
+    "question": "Which data structure is commonly used for BFS traversal?",
+    "options": {
+      "A": "Stack",
+      "B": "Queue",
+      "C": "Heap",
+      "D": "Array only"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "subject": "DSA",
+    "question": "Which data structure is commonly used for iterative DFS traversal?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Priority Queue",
+      "D": "Hash Table"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "subject": "DSA",
+    "question": "What is the maximum number of children a node can have in a binary tree?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "Unlimited"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 44,
+    "subject": "DSA",
+    "question": "In a binary search tree, values smaller than a node are generally placed in which subtree?",
+    "options": {
+      "A": "Right",
+      "B": "Left",
+      "C": "Root",
+      "D": "Any random subtree"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 45,
+    "subject": "DSA",
+    "question": "Which data structure provides average O(1) lookup by key?",
+    "options": {
+      "A": "Hash Table",
+      "B": "Linked List",
+      "C": "Binary Tree",
+      "D": "Stack"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 46,
+    "subject": "DSA",
+    "question": "What is the time complexity of accessing an element by index in an array?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n²)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 47,
+    "subject": "DSA",
+    "question": "Which technique solves overlapping subproblems by storing previously computed results?",
+    "options": {
+      "A": "Greedy method",
+      "B": "Dynamic Programming",
+      "C": "Binary Search",
+      "D": "Hashing"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 48,
+    "subject": "DSA",
+    "question": "Which technique explores a choice recursively and undoes it when necessary?",
+    "options": {
+      "A": "Backtracking",
+      "B": "Hashing",
+      "C": "Indexing",
+      "D": "Compilation"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "subject": "DSA",
+    "question": "Which heap gives the smallest element highest priority?",
+    "options": {
+      "A": "Max Heap",
+      "B": "Min Heap",
+      "C": "Binary Search Tree",
+      "D": "Stack"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "subject": "DSA",
+    "question": "What is the space complexity of storing n elements in an array?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n²)"
+    },
+    "answer": "C"
+  }
+]
