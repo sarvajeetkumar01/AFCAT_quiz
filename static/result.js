@@ -13,19 +13,43 @@ const score = params.get("score");
 
 const accuracy = params.get("accuracy");
 
+const time = params.get("time");
 
-document.getElementById("total-questions").textContent = totalQuestions;
 
-document.getElementById("correct-answers").textContent = correct;
+// Display result details
 
-document.getElementById("wrong-answers").textContent = wrong;
+document.getElementById("total-questions").textContent =
+    totalQuestions;
 
-document.getElementById("unattempted").textContent = unattempted;
+document.getElementById("correct-answers").textContent =
+    correct;
 
-document.getElementById("score").textContent = score;
+document.getElementById("wrong-answers").textContent =
+    wrong;
 
-document.getElementById("accuracy").textContent = accuracy + "%";
+document.getElementById("unattempted").textContent =
+    unattempted;
 
-document.getElementById("score-display").textContent = score;
+document.getElementById("score").textContent =
+    score;
 
-document.getElementById("accuracy-display").textContent = accuracy + "% Accuracy";
+document.getElementById("accuracy").textContent =
+    accuracy + "%";
+
+
+// Display time taken
+
+document.getElementById("time-taken").textContent =
+    time || "0:00";
+
+
+// Display score
+
+document.getElementById("score-display").textContent =
+    score;
+
+
+// Display accuracy
+
+document.getElementById("accuracy-display").textContent =
+    accuracy + "% Accuracy";
