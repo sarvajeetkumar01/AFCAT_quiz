@@ -5,7 +5,9 @@ let answers = [];
 let isSubmitted = false;
 
 
+// ==========================================
 // Random Quiz button
+// ==========================================
 
 const randomQuizButton = document.getElementById("random-quiz-btn");
 
@@ -59,7 +61,9 @@ if (randomQuizButton) {
 }
 
 
+// ==========================================
 // HTML elements
+// ==========================================
 
 const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
@@ -71,11 +75,16 @@ const questionNumbersElement = document.getElementById("question-numbers");
 const submitButton = document.getElementById("submit-btn");
 
 
+// ==========================================
 // Only run quiz code on test page
+// ==========================================
 
 if (questionElement) {
 
+
+    // ==========================================
     // Check for Random Quiz questions
+    // ==========================================
 
     const savedRandomQuestions =
         sessionStorage.getItem("randomQuestions");
@@ -85,6 +94,10 @@ if (questionElement) {
 
         questions = JSON.parse(savedRandomQuestions);
 
+        // Remove them so refreshing /test
+        // does not reuse the same random quiz
+        sessionStorage.removeItem("randomQuestions");
+
         showQuestion();
         createQuestionNumbers();
 
@@ -93,7 +106,9 @@ if (questionElement) {
 
     else {
 
+        // ==========================================
         // Load normal full test
+        // ==========================================
 
         fetch("/static/afcat_2_2026.json")
             .then(function(response) {
@@ -119,7 +134,9 @@ if (questionElement) {
     }
 
 
+    // ==========================================
     // Show question
+    // ==========================================
 
     function showQuestion() {
 
@@ -146,7 +163,9 @@ if (questionElement) {
             button.textContent = option;
 
 
+            // ==========================================
             // Show selected answer
+            // ==========================================
 
             if (answers[currentQuestion] === letter) {
 
@@ -157,7 +176,9 @@ if (questionElement) {
             }
 
 
+            // ==========================================
             // Select answer
+            // ==========================================
 
             button.addEventListener("click", function () {
 
@@ -177,7 +198,9 @@ if (questionElement) {
     }
 
 
+    // ==========================================
     // Create question numbers
+    // ==========================================
 
     function createQuestionNumbers() {
 
@@ -191,7 +214,9 @@ if (questionElement) {
             button.textContent = index + 1;
 
 
+            // ==========================================
             // Current question
+            // ==========================================
 
             if (index === currentQuestion) {
 
@@ -202,7 +227,9 @@ if (questionElement) {
             }
 
 
+            // ==========================================
             // Answered question
+            // ==========================================
 
             else if (answers[index] !== undefined) {
 
@@ -231,7 +258,9 @@ if (questionElement) {
     }
 
 
+    // ==========================================
     // Calculate result
+    // ==========================================
 
     function calculateResult(autoSubmit = false) {
 
@@ -248,6 +277,10 @@ if (questionElement) {
 
         let unattempted = 0;
 
+
+        // ==========================================
+        // Check all answers
+        // ==========================================
 
         questions.forEach(function (question, index) {
 
@@ -272,7 +305,10 @@ if (questionElement) {
         });
 
 
-        // Confirm normal submission if questions are unanswered
+        // ==========================================
+        // Confirm normal submission
+        // if questions are unanswered
+        // ==========================================
 
         if (unattempted > 0 && autoSubmit === false) {
 
@@ -296,6 +332,10 @@ if (questionElement) {
         isSubmitted = true;
 
 
+        // ==========================================
+        // Calculate score
+        // ==========================================
+
         let totalQuestions = questions.length;
 
         let score = correct;
@@ -305,24 +345,58 @@ if (questionElement) {
 
         if (totalQuestions > 0) {
 
-            accuracy = (correct / totalQuestions) * 100;
+            accuracy =
+                (correct / totalQuestions) * 100;
 
         }
 
 
+        // ==========================================
+        // Calculate time taken
+        // ==========================================
+
+        let timeTaken = totalTime - timeLeft;
+
+        let timeTakenMinutes =
+            Math.floor(timeTaken / 60);
+
+        let timeTakenSeconds =
+            timeTaken % 60;
+
+
+        // Make seconds two digits
+        timeTakenSeconds =
+            String(timeTakenSeconds).padStart(2, "0");
+
+
+        // ==========================================
+        // Send result to result page
+        // ==========================================
+
         window.location.href =
 
             "/result?total=" + totalQuestions +
+
             "&correct=" + correct +
+
             "&wrong=" + wrong +
+
             "&unattempted=" + unattempted +
+
             "&score=" + score +
-            "&accuracy=" + accuracy.toFixed(2);
+
+            "&accuracy=" + accuracy.toFixed(2) +
+
+            "&time=" +
+            timeTakenMinutes + ":" +
+            timeTakenSeconds;
 
     }
 
 
+    // ==========================================
     // Next button
+    // ==========================================
 
     nextButton.addEventListener("click", function () {
 
@@ -339,7 +413,9 @@ if (questionElement) {
     });
 
 
+    // ==========================================
     // Previous button
+    // ==========================================
 
     previousButton.addEventListener("click", function () {
 
@@ -356,7 +432,9 @@ if (questionElement) {
     });
 
 
+    // ==========================================
     // Submit button
+    // ==========================================
 
     submitButton.addEventListener("click", function () {
 
@@ -365,18 +443,26 @@ if (questionElement) {
     });
 
 
+    // ==========================================
     // Timer
+    // ==========================================
 
     let timeLeft = 120 * 60;
 
-    const timerElement = document.getElementById("timer");
+    // Total allowed time
+    let totalTime = 120 * 60;
+
+    const timerElement =
+        document.getElementById("timer");
 
 
     const timer = setInterval(function () {
 
-        let minutes = Math.floor(timeLeft / 60);
+        let minutes =
+            Math.floor(timeLeft / 60);
 
-        let seconds = timeLeft % 60;
+        let seconds =
+            timeLeft % 60;
 
 
         if (seconds < 10) {
@@ -389,8 +475,13 @@ if (questionElement) {
         timerElement.textContent =
             minutes + ":" + seconds;
 
+
         timeLeft--;
 
+
+        // ==========================================
+        // Time finished
+        // ==========================================
 
         if (timeLeft < 0) {
 
