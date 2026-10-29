@@ -20,3 +20,6 @@ def result():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+print("Templates folder:",app.template_folder)
+print("Homme template:",app.jinja_loader.searchpath)
