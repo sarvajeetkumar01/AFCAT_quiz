@@ -16,15 +16,15 @@ if (randomQuizButton) {
     randomQuizButton.addEventListener("click", function () {
 
         fetch("/static/random.json")
-            .then(function(response) {
+            .then(function (response) {
 
                 return response.json();
 
             })
-            .then(function(data) {
+            .then(function (data) {
 
                 // Shuffle questions
-                data.sort(function() {
+                data.sort(function () {
 
                     return Math.random() - 0.5;
 
@@ -50,7 +50,7 @@ if (randomQuizButton) {
                 window.location.href = "/test";
 
             })
-            .catch(function(error) {
+            .catch(function (error) {
 
                 console.error("Error loading questions:", error);
 
@@ -111,12 +111,12 @@ if (questionElement) {
         // ==========================================
 
         fetch("/static/afcat_2_2026.json")
-            .then(function(response) {
+            .then(function (response) {
 
                 return response.json();
 
             })
-            .then(function(data) {
+            .then(function (data) {
 
                 questions = data;
 
@@ -125,7 +125,7 @@ if (questionElement) {
                 createQuestionNumbers();
 
             })
-            .catch(function(error) {
+            .catch(function (error) {
 
                 console.error("Error loading questions:", error);
 
@@ -342,11 +342,12 @@ if (questionElement) {
 
         let accuracy = 0;
 
+        let attempted = totalQuestions - unattempted;
+
 
         if (totalQuestions > 0) {
 
-            accuracy =
-                (correct / totalQuestions) * 100;
+            accuracy = (correct / attempted) * 100;
 
         }
 
